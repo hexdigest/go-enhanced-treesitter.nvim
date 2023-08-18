@@ -1,5 +1,12 @@
 ; extends
 
+;"" (interpreted_string_literal)
+;  (raw_string_literal)
+
+
+(raw_string_literal) @sql
+(interpreted_string_literal) @sql
+
 (string (string_value) @sql
     (#lua-match? @sql "^%s*SELECT")
     (#exclude_children! @sql))
