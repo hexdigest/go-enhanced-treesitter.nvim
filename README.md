@@ -20,10 +20,10 @@ Install the plugin with your preferred package manager:
 
 ```lua
 -- Lua
-use("gbprod/php-enhanced-treesitter.nvim")
+use("hexdigest/go-enhanced-treesitter.nvim")
 ```
 
-You should have [Php](https://github.com/tree-sitter/tree-sitter-go) and
+You should have [Go](https://github.com/tree-sitter/tree-sitter-go) and
 [SQL syntax](https://github.com/derekstride/tree-sitter-sql) treesitter syntax installed.
 
 You can do that using `TSInstall` or with [packer](https://github.com/wbthomason/packer.nvim):
