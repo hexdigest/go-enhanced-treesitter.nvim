@@ -8,7 +8,7 @@ Using this plugin, you will have
 
 - [SQL syntax](https://github.com/derekstride/tree-sitter-sql) for `raw_string_literal` and `interpreted_string_literal`
 
-![demo](https://github.com/hexdigest/go-enhanced-treesitter.nvim/blob/master/demo.png)
+![demo](https://github.com/hexdigest/go-enhanced-treesitter.nvim/blob/main/demo.png)
 
 ## ⚡️ Requirements
 
