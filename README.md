@@ -1,4 +1,4 @@
-# 🔦 Php enhanced treesitter
+# 🔦 GO enhanced treesitter
 
 This plugin improve default [Go treesitter grammar](https://github.com/tree-sitter/tree-sitter-go).
 
