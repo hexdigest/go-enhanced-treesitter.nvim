@@ -33,7 +33,7 @@ You can do that using `TSInstall` or with [packer](https://github.com/wbthomason
 use({
   "hexdigest/go-enhanced-treesitter.nvim",
   requires = {
-    { "derekstride/tree-sitter-sql", run = ":TSInstall sql" },
+    { "derekstride/tree-sitter-sql", run = ":TSInstall sql go" },
   }
 })
 ```
