@@ -1,12 +1,12 @@
 # 🔦 Php enhanced treesitter
 
-This plugin improve default [php treesitter grammar](https://github.com/tree-sitter/tree-sitter-php).
+This plugin improve default [Go treesitter grammar](https://github.com/tree-sitter/tree-sitter-go).
 
 ## ✨ Features
 
 Using this plugin, you will have
 
-- [SQL syntax](https://github.com/derekstride/tree-sitter-sql) for `string`, `heredoc` and `nowdoc` strings containing SQL ;
+- [SQL syntax](https://github.com/derekstride/tree-sitter-sql) for `raw_string_literal` and `interpreted_string_literal`
 
 ## ⚡️ Requirements
 
@@ -36,4 +36,13 @@ use({
     { "derekstride/tree-sitter-sql", run = ":TSInstall sql go" },
   }
 })
+```
+
+### [lazy](https://github.com/folke/lazy.nvim)
+```lua
+  {
+    "hexdigest/go-enhanced-treesitter.nvim",
+    build = ":TSInstall go sql",
+    ft = "go",
+  },
 ```
